@@ -6,7 +6,100 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <canvas id="draw" width="800" height="800"></canvas>
+    <div class="main-container">
+      <div class="controls">
+        <h1 class="header">Малявалка-антыстрэс</h1>
+        <div class="button">
+          <button
+            data-key="#030303"
+            type="button"
+            class="button-color black settings"
+          >
+            чорны
+          </button>
+          <button
+            data-key="#fdfcfc"
+            type="button"
+            class="button-color white settings"
+          >
+            белы
+          </button>
+          <button
+            data-key="#faf60a"
+            type="button"
+            class="button-color yellow settings"
+          >
+            жоўты
+          </button>
+          <button
+            data-key="#f50a0a"
+            type="button"
+            class="button-color red settings"
+          >
+            чырвоны
+          </button>
+          <button
+            data-key="#11fc25"
+            type="button"
+            class="button-color green settings"
+          >
+            зялёны
+          </button>
+          <button
+            data-key="#15069c"
+            type="button"
+            class="button-color blue settings"
+          >
+            сіні
+          </button>
+          <button
+            data-key="#6e0bf0"
+            type="button"
+            class="button-color purple settings"
+          >
+            фіялетавы
+          </button>
+          <button
+            data-key="#fc4007"
+            type="button"
+            class="button-color orange settings"
+          >
+            памеранчавы
+          </button>
+          <button
+            data-key="rainbow"
+            type="button"
+            class="button-color rainbow settings"
+          >
+            вясёлка
+          </button>
+        </div>
+        <div class="settings-container settings">
+          <label class="h2" for="base">Выбяры колер</label>
+          <input id="base" type="color" name="base" value="#ff0000" />
+        </div>
+        <div class="settings-container settings">
+          <label class="h2" for="spacing">Таўшчыня лініі</label>
+          <input
+            id="spacing"
+            type="range"
+            name="spacing"
+            min="1"
+            max="100"
+            value="50"
+            data-sizing="px"
+          />
+        </div>
+        <button
+          type="button"
+          id="floating-width"
+          class="floating-width settings"
+        >
+          плаваючая таўшчыня
+        </button>
+      </div>
+      <canvas id="draw" width="1200" height="800"></canvas>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

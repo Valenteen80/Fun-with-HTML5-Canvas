@@ -1,4 +1,105 @@
 html,
 body {
   margin: 0;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  font-size: 1.2rem;
+  margin: 20px 20px 5px 20px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px rgb(4, 36, 14);
+  width: 35%;
+  max-height: 100%;
+}
+
+.settings-container {
+  margin: 7px;
+  border-radius: 5px;
+}
+
+.settings-container:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+.button {
+  width: 70%;
+}
+.button-color {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button-color:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+.black {
+  background-color: #030303;
+  color: azure;
+}
+
+.white {
+  background-color: #fdfcfc;
+}
+.yellow {
+  background-color: #faf60a;
+}
+.red {
+  background-color: #f50a0a;
+}
+.green {
+  background-color: #11fc25;
+}
+.blue {
+  background-color: #15069c;
+}
+.purple {
+  background-color: #6e0bf0;
+}
+.orange {
+  background-color: #fc4007;
+}
+.rainbow {
+  background-image: url(https://linuxgid.ru/wp-content/uploads/2011/04/gradient.jpg);
+}
+
+.floating-width {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  background-color: #bbdb88;
+  width: 55%;
+}
+
+.floating-width:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+.active {
+  border: solid 4px rgb(48, 36, 36);
+  border-radius: 5px;
 }
