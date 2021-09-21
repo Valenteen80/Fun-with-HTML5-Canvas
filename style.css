@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   border: solid 2px rgb(4, 36, 14);
-  width: 35%;
+  width: 30%;
   max-height: 100%;
 }
 

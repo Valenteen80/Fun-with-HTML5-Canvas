@@ -55,7 +55,7 @@ function widthInputUpdate() {
 //-------------------------------------------глобальные переменные:
 const canvas = document.querySelector("#draw");
 const ctx = canvas.getContext("2d");
-canvas.width = (document.documentElement.clientWidth / 100) * 65;
+canvas.width = (document.documentElement.clientWidth / 100) * 70;
 canvas.height = document.documentElement.clientHeight;
 ctx.strokeStyle = "#BADASS";
 ctx.linejoin = "round";
